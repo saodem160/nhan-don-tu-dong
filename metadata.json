@@ -1,0 +1,6 @@
+{
+  "name": "Lọc Đơn Hàng",
+  "description": "Ứng dụng hỗ trợ tài xế công nghệ tự động lọc và nhận đơn hàng theo khoảng cách và giá cước tùy chỉnh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

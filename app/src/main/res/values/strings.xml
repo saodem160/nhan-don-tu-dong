@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Lọc Đơn Hàng</string>
+    <string name="tab_settings">Cấu hình lọc</string>
+    <string name="tab_history">Lịch sử đơn</string>
+    
+    <!-- Filter Tabs -->
+    <string name="filter_type_fast">FAST</string>
+    <string name="filter_type_vip">VIP</string>
+    <string name="filter_type_food">FOOD</string>
+    <string name="filter_type_bike">BIKE</string>
+
+    <!-- Filter Fields -->
+    <string name="enable_order_type">Kích hoạt nhận loại đơn này</string>
+    <string name="max_pickup_distance">Khoảng cách lấy tối đa</string>
+    <string name="max_delivery_distance">Khoảng cách giao tối đa</string>
+    <string name="min_shipping_fee">Phí ship tối thiểu</string>
+    <string name="save_settings">Lưu cấu hình</string>
+    <string name="settings_saved_success">Đã lưu cấu hình thành công!</string>
+
+    <!-- Master & Test Toggles -->
+    <string name="master_scan_title">Quét đơn nền tự động</string>
+    <string name="master_scan_subtitle">Chạy ngầm và giữ màn hình luôn sáng</string>
+    <string name="test_mode_title">Chế độ thử nghiệm (Chỉ Lọc Không Nhận)</string>
+    <string name="test_mode_subtitle">Mở xem chi tiết, ghi lịch sử, bấm Đóng và không nhận đơn</string>
+    
+    <!-- Floating Widget -->
+    <string name="floating_widget_title">Bong bóng điều khiển nhanh</string>
+    <string name="floating_widget_subtitle">Hiển thị nút nổi trên màn hình các ứng dụng khác</string>
+    <string name="enable_floating_widget">Bật bong bóng nổi</string>
+
+    <!-- Status & Accessibility -->
+    <string name="accessibility_service_name">Dịch vụ Hỗ trợ Tiếp cận Lọc Đơn Hàng</string>
+    <string name="accessibility_service_description">Tự động nhận diện đơn hàng giao nhận theo cấu hình khoảng cách và cước phí của tài xế.</string>
+    <string name="accessibility_permission_required">Yêu cầu bật Dịch vụ Tiếp cận (Accessibility)</string>
+    <string name="accessibility_permission_desc">Cần cấp quyền để đọc thông tin đơn hàng và hỗ trợ thao tác tự động.</string>
+    <string name="grant_permission">Cấp quyền</string>
+    <string name="overlay_permission_required">Yêu cầu quyền hiển thị trên ứng dụng khác</string>
+    
+    <!-- History Screen -->
+    <string name="history_empty_title">Chưa có lịch sử đơn hàng</string>
+    <string name="history_empty_desc">Khi dịch vụ chạy ngầm, các đơn quét được sẽ hiển thị chi tiết tại đây.</string>
+    <string name="clear_history">Xóa lịch sử</string>
+    <string name="confirm_clear_history">Bạn có chắc muốn xóa toàn bộ lịch sử đơn hàng?</string>
+    <string name="dialog_cancel">Hủy</string>
+    <string name="dialog_confirm">Xác nhận</string>
+    <string name="status_accepted">Đã nhận đơn (Trực tiếp)</string>
+    <string name="status_test_closed">Đã đóng (Thử nghiệm)</string>
+    <string name="status_filtered_closed">Đã đóng (Không đạt tiêu chí)</string>
+
+    <!-- Cooldown -->
+    <string name="cooldown_active">Đang tạm dừng nhận đơn sau khi nhận thành công</string>
+    <string name="cooldown_remaining">Thời gian còn lại: %1$s</string>
+</resources>
